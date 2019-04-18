@@ -1,7 +1,13 @@
 body {
-	background-color: grey;
+	background-color: #FFFFFF;
 }
 
 h1, p {
-	color: blue
+	color: #231f20
+}
+
+h1 {
+	font-family: Lato, sans-serif;
+	font-weight: normal;
+	font-size: 28px;
 }
