@@ -1,0 +1,24 @@
+body {
+	text-align: center;
+	color: #ffffff;
+	background: url("mountains-and-clouds-33 copy 2.jpg");
+	background-size: cover;
+}
+
+h1 {
+	font-family: lato;
+	font-size: 30px;
+}
+
+#slogan
+{
+	font-family: garamond;
+	font-style: italic;
+	font-size: 22px;
+}
+
+p {
+	font-family: garamond;
+	font-size: 18px;
+}
+
