@@ -5,22 +5,4 @@ body {
 	background-size: cover;
 }
 
-h1 {
-	text-align: center;
-	text-transform: uppercase;
-	font-family: lato;
-	font-size: 30px;
-}
-
-#slogan
-{
-	font-family: garamond;
-	font-style: italic;
-	font-size: 22px;
-}
-
-p {
-	font-family: garamond;
-	font-size: 18px;
-}
 
