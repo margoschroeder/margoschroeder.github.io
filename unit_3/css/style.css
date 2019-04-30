@@ -1,12 +1,11 @@
 body {
 	text-align: center;
 	color: #ffffff;
-	background: url("unit_3/images/mountains.jpg");
+	background: url("images/mountains.jpg");
 	background-size: cover;
 }
 
 h1 {
-	text-align: center;
 	text-transform: uppercase;
 	font-family: helvetica;
 	font-size: 30px;
