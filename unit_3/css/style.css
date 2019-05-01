@@ -1,21 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
 	text-align: center;
 	color: #ffffff;
 	background-image: url("images/mountains.jpg");
 	background-size: cover;
 }
+#hero {
+	width: 100%;
+	position: relative;
+	height: 56.25vw;
+	overflow: hidden;
+}
+
+#hero_content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+img {
+	display: block;
+	width: 100%;
+}
 
 h1 {
 	text-transform: uppercase;
-	font-family: helvetica;
-	font-size: 30px;
+	font-family: open sans;
+	font-size: 40px;
+	padding-bottom: 10px;
 }
 
-#slogan
+h2
 {
 	font-family: garamond;
 	font-style: italic;
 	font-size: 22px;
+	padding-bottom: 10px;
+
 }
 
 p {
