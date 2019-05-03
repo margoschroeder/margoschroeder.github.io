@@ -31,6 +31,15 @@ img {
 	width: 100%;
 }
 
+figure {
+	width: 35%;
+	position: absolute;
+	top: 3%;
+	left: 50%;
+	transform: translate(-50%, -97%);
+	padding-bottom: 15px;
+}
+
 h1 {
 	text-transform: uppercase;
 	font-family: 'Lato', sans-serif;
@@ -47,16 +56,15 @@ h2
 	font-size: 25px;
 	font-weight: 300;
 	letter-spacing: 2.5px;
-	word-spacing: 10px
+	word-spacing: 10px;
 	padding-bottom: 40px;
-
 }
 
 p {
 	font-family: 'Lato', sans-serif;
 	font-size: 16px;
 	font-weight: 300;
-	letter-spacing: 3px
+	letter-spacing: 1.5px;
 	line-height: 1.5em;
 
 }
