@@ -7,12 +7,6 @@
 	box-sizing: border-box;
 }
 
-header {
-    background-color: #FFED74;
-    border: 1px black solid;
-    padding: 20px;
-}
-
 #hero {
 	background-image: url("../images/bogomil-mihaylov-519148-unsplash.jpg");
 	background-size: cover;
@@ -37,7 +31,6 @@ figure {
 }
 
 nav {
-	background-color: #E8C66A;
 	font-family: 'Lato', sans-serif;
 	font-style: italic;
 	font-size: 14px;
@@ -75,10 +68,9 @@ h3 {
 }
 
 h4 {
-	text-transform: uppercase;
 	font-family: 'Lato', sans-serif;
 	font-style: italic;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 300;
 	letter-spacing: 1.5px;
 	padding-bottom: 5vh;
@@ -116,19 +108,16 @@ a {
 }
 
 .picture {
-	background-color: #E89C6C;
 	display: block;
 	width: 45%;
 	padding: 1em 1em;
 }
 
 .description {
-	background-color: #FFC675;
 	padding: 1em 1em;
 }
 
 footer {
-	background-color: #FF957E;
 	color: #A9A9A9;
 	text-align: left;
 	font-family: 'Lato', sans-serif;
@@ -137,7 +126,6 @@ footer {
 	font-style: italic;
 	letter-spacing: 1.5px;
   	padding: 1em 1em;
-  	padding-left: 3em;
 }
 
 
