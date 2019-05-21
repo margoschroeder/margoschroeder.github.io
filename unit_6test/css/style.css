@@ -7,10 +7,6 @@
 	box-sizing: border-box;
 }
 
-header {
-    padding: 20px;
-}
-
 #hero {
 	background-image: url("../images/bogomil-mihaylov-519148-unsplash.jpg");
 	background-size: cover;
@@ -34,25 +30,13 @@ figure {
 	padding-bottom: 3vh;
 }
 
-nav a {
+nav {
 	font-family: 'Lato', sans-serif;
 	font-style: italic;
 	font-size: 14px;
 	font-weight: 300;
-	text-align: center;
-	text-decoration: none;
-	color: white;
 	letter-spacing: 2.5px;
-	padding: 2em;
-}
-
-ul {
-	list-style: none;
-	text-align: center;
-}
-
-li {
-	display: inline-block;
+	word-spacing: 45px;	
 }
 
 h1 {
@@ -67,7 +51,7 @@ h1 {
 h2 {
 	font-family: 'Lato', sans-serif;
 	font-style: italic;
-	font-size: 22px;
+	font-size: 25px;
 	font-weight: 300;
 	letter-spacing: 2.5px;
 	word-spacing: 10px;
@@ -80,15 +64,13 @@ h3 {
 	font-size: 30px;
 	font-weight: 300;
 	letter-spacing: 8px;
-	padding-bottom: 18px;
-	line-height: 20px;	
+	padding-bottom: 1vh;	
 }
 
 h4 {
-	text-transform: uppercase;
 	font-family: 'Lato', sans-serif;
 	font-style: italic;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 300;
 	letter-spacing: 1.5px;
 	padding-bottom: 5vh;
@@ -99,29 +81,9 @@ p {
 	font-size: 12px;
 	font-weight: 300;
 	letter-spacing: 1.5px;
-	line-height: 2em;
-	padding-bottom: 10px;
+	line-height: 1.5em;
+	padding-bottom: 1vh;
 
-}
-
-#one {
-	text-align: left;
-	color: #A9A9A9;
-	padding: 1.5em;
-}
-
-#picture {
-	display: block;
-	padding: 1.5em;
-	float: left;
-	width: 55%;
-}
-
-#description {
-	padding: 1.5em;
-	padding-right: 3em;
-	float: right;
-	width: 45%;
 }
 
 #note {
@@ -130,10 +92,8 @@ p {
 	font-size: 9px;
 	font-weight: 300;
 	letter-spacing: 1.5px;
-	line-height: 2em;
+	line-height: 1.5em;
 	padding-bottom: 1vh;
-	padding-right: 2em;
-
 }
 
 a {
@@ -141,13 +101,20 @@ a {
 	text-decoration: underline;
 }
 
-.clearfix:after {
-	visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
+#one {
+	text-align: left;
+	color: #A9A9A9;
+	padding: 1em 1em;
+}
+
+.picture {
+	display: block;
+	width: 45%;
+	padding: 1em 1em;
+}
+
+.description {
+	padding: 1em 1em;
 }
 
 footer {
@@ -158,8 +125,7 @@ footer {
 	font-weight: 300;
 	font-style: italic;
 	letter-spacing: 1.5px;
-  	padding: 1em;
-  	padding-left: 4em;
+  	padding: 1em 1em;
 }
 
 
