@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300, 400'); 
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+    padding: 20px;
+}
+
+#hero {
+	background-image: url("../images/bogomil-mihaylov-519148-unsplash.jpg");
+	background-size: cover;
+	padding-top: 10vh;
+}
+
+#hero_content {
+	text-align: center;
+	color: #ffffff;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+figure {
+	width: 15%;
+	margin: 0 auto;
+	padding-top: 15vh;
+	padding-bottom: 3vh;
+}
+
+nav a {
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	font-size: 14px;
+	font-weight: 300;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	letter-spacing: 2.5px;
+	padding: 2em;
+}
+
+ul {
+	list-style: none;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-size: 48px;
+	font-weight: 400;
+	letter-spacing: 15px;
+	padding-bottom: 1vh;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	font-size: 22px;
+	font-weight: 300;
+	letter-spacing: 2.5px;
+	word-spacing: 10px;
+	padding-bottom: 32vh;
+}
+
+h3 {
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+	letter-spacing: 8px;
+	padding-bottom: 18px;
+	line-height: 20px;	
+}
+
+h4 {
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 1.5px;
+	padding-bottom: 5vh;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	letter-spacing: 1.5px;
+	line-height: 2em;
+	padding-bottom: 10px;
+
+}
+
+#one {
+	text-align: left;
+	color: #A9A9A9;
+	padding: 1.5em;
+}
+
+#picture {
+	display: block;
+	padding: 1.5em;
+	float: left;
+	width: 55%;
+}
+
+#description {
+	padding: 1.5em;
+	padding-right: 3em;
+	float: right;
+	width: 45%;
+}
+
+#note {
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	font-size: 9px;
+	font-weight: 300;
+	letter-spacing: 1.5px;
+	line-height: 2em;
+	padding-bottom: 1vh;
+	padding-right: 2em;
+
+}
+
+a {
+	color: #A9A9A9;
+	text-decoration: underline;
+}
+
+.clearfix:after {
+	visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+footer {
+	color: #A9A9A9;
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+	font-size: 10px;
+	font-weight: 300;
+	font-style: italic;
+	letter-spacing: 1.5px;
+  	padding: 1em;
+  	padding-left: 4em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
