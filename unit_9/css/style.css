@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300, 400'); 
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	letter-spacing: 2.5px;
+}
+
+header {
+    padding: 1.25rem;
+}
+
+#hero {
+	background-image: url("../images/bogomil-mihaylov-519148-unsplash.jpg");
+	background-size: cover;
+	padding-top: 10vh;
+}
+
+#hero_content {
+	text-align: center;
+	color: #ffffff;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+figure {
+	width: 15%;
+	margin: 0 auto;
+	padding-top: 15vh;
+	padding-bottom: 3vh;
+}
+
+nav a {
+	font-style: italic;
+	font-size: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	letter-spacing: 0.25rem;
+	padding: 1rem;
+}
+
+ul {
+	list-style: none;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 2.5rem;
+	font-weight: 400;
+	letter-spacing: 1rem;
+	padding-bottom: 1rem;
+}
+
+h2 {
+	font-style: italic;
+	font-size: 1rem;
+	font-weight: 300;
+	letter-spacing: 0.25rem;
+	word-spacing: 0.5rem;
+	padding-bottom: 12rem;
+}
+
+h3 {
+	text-transform: uppercase;
+	font-size: 2rem;
+	font-weight: 300;
+	letter-spacing: 0.5rem;
+	padding-bottom: 2rem;
+	line-height: 1;	
+	position: relative;
+	top: -3px;
+}
+
+h4 {
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 0.15rem;
+	padding-bottom: 4vh;
+}
+
+p {
+	font-size: 0.8rem;
+	letter-spacing: 0.1rem;
+	line-height: 2em;
+	padding-bottom: 1rem;
+
+}
+
+#one {
+	text-align: left;
+	color: #A9A9A9;
+	padding: 1.5em;
+}
+
+#picture {
+	display: block;
+	padding: 1.5em;
+	float: left;
+	width: 55%;
+}
+
+#picture2 {
+	display: block;
+	padding: 1.5em;
+	float: left;
+	width: 45%;
+}
+
+#description {
+	padding: 1.5em;
+	padding-right: 3em;
+	float: right;
+	width: 45%;
+}
+
+#description2 {
+	padding: 1.5em;
+	padding-right: 3em;
+	float: right;
+	width: 55%;
+}
+
+#note {
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	font-size: 9px;
+	font-weight: 300;
+	letter-spacing: 1.5px;
+	line-height: 2em;
+	padding-bottom: 1vh;
+	padding-right: 2em;
+}
+
+a {
+	color: #A9A9A9;
+	text-decoration: underline;
+}
+
+.clearfix:after {
+	visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+footer {
+	color: #A9A9A9;
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+	font-size: 10px;
+	font-weight: 300;
+	font-style: italic;
+	letter-spacing: 1.5px;
+  	padding: 1em;
+  	padding-left: 4em;
+}
+
+
+
+
+@media (max-width: 768px) {
+	#description {
+		width: 100%;
+	}
+	#picture {
+		width: 100%;
+	}
+	h1 {
+		font-size: 0.75em;
+		letter-spacing: 0.75em;
+	}
+	h2 {
+		font-size: 0.75em;
+	}
+}
+
+@media (max-width: 320px) {
+	
+	nav a {
+		font-style: italic;
+		font-size: 0.6em;
+		text-align: center;
+		text-decoration: none;
+		color: white;
+		letter-spacing: 0.5em;
+		padding: 0.5em;
+	}
+
+	figure {
+		width: 45%;
+		margin: 0 auto;
+	}		
+	
+	h1 {
+		font-size: 1.5em;
+		letter-spacing: 0.25em;
+		padding-bottom: .5em;
+		max-width: 200px;
+		margin: 0 auto;
+	}
+	h2 {
+		font-size: 0.6em;
+	}
+
+	#description {
+		width: 100%;
+	}
+
+	#picture {
+		width: 100%;
+	}
+	
+	
+	h3 {
+		font-size: 0.95em;
+		line-height: 1.15em;
+		letter-spacing: 0.25em;	
+		padding-bottom: 0.5em;
+	}
+
+	h4 {
+		font-size: 0.6em;
+		padding-bottom: 1.25em;
+
+	}
+
+	p {
+		font-size: 0.7em;
+		letter-spacing: 0.15em;
+		line-height: 1.75em;
+		padding-bottom: 1.25em;
+
+	}
+
+	#note {
+		font-size: 0.4em;
+		line-height: 1.75em;
+
+	}
+}
+
+
+
+
+
+
+
+
+
