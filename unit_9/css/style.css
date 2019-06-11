@@ -118,13 +118,6 @@ p {
 	width: 55%;
 }
 
-#picture2 {
-	display: block;
-	padding: 1.5em;
-	float: left;
-	width: 45%;
-}
-
 #description {
 	padding: 1.5em;
 	padding-right: 3em;
@@ -132,12 +125,6 @@ p {
 	width: 45%;
 }
 
-#description2 {
-	padding: 1.5em;
-	padding-right: 3em;
-	float: right;
-	width: 55%;
-}
 
 #note {
 	font-family: 'Lato', sans-serif;
@@ -154,6 +141,46 @@ a {
 	color: #A9A9A9;
 	text-decoration: underline;
 }
+
+#work nav a {
+	color: #A9A9A9;
+	text-align: right;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.grid-item {
+	width: 30%;
+	float: left;
+	padding: 1.5em;
+}
+
+
+
+#about nav a {
+	color: #A9A9A9;
+	text-align: right;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+#picture2 {
+	display: block;
+	padding: 1.5em;
+	float: left;
+	width: 45%;
+}
+
+#description2 {
+	padding: 1.5em;
+	padding-right: 3em;
+	float: right;
+	width: 55%;
+}
+
+
+
+
 
 .clearfix:after {
 	visibility: hidden;
@@ -180,12 +207,10 @@ footer {
 
 
 @media (max-width: 768px) {
-	#description {
+	#description, #description2, #picture, #picture2, .grid-item {
 		width: 100%;
 	}
-	#picture {
-		width: 100%;
-	}
+
 	h1 {
 		font-size: 0.75em;
 		letter-spacing: 0.75em;
@@ -219,18 +244,14 @@ footer {
 		max-width: 200px;
 		margin: 0 auto;
 	}
+	
 	h2 {
 		font-size: 0.6em;
 	}
 
-	#description {
+	#description, #description2, #picture, #picture2, .grid-item {
 		width: 100%;
 	}
-
-	#picture {
-		width: 100%;
-	}
-	
 	
 	h3 {
 		font-size: 0.95em;
@@ -256,7 +277,6 @@ footer {
 	#note {
 		font-size: 0.4em;
 		line-height: 1.75em;
-
 	}
 }
 
