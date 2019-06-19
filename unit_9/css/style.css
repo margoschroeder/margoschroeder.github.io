@@ -149,9 +149,14 @@ a {
 	padding-bottom: 2em;
 }
 
+.div-container{
+	padding-top: 3em;
+	text-align: center;
+}
+
 .grid-item {
 	width: 30%;
-	float: left;
+	display: inline-block;
 	padding: 1.5em;
 }
 
@@ -173,6 +178,7 @@ a {
 
 #description2 {
 	padding: 1.5em;
+	padding-top: 3em;
 	padding-right: 3em;
 	float: right;
 	width: 55%;
